@@ -17,11 +17,11 @@ export default function Hero() {
             </div>
 
             {/* Hero Text */}
-            <h1 className="2xl:text-6xl xl:text-5xl lg:text-5xl md:text-[2.5rem] sm:text2xl text-2xl leading-tight">
+            <h1 className="2xl:text-6xl xl:text-5xl lg:text-5xl md:text-[2.5rem] sm:text2xl text-[1.6rem] leading-tight">
                 <span className="font-[800]">Helping you stay</span> <i className="font-[Sacramento] font-bold"> Connected </i> <span className="font-black">with</span>
                 <br /> <span className="font-black">Love Pulse</span>
             </h1>
-            <p className="mt-4 text-black text-[14px] max-w-md">
+            <p className="mt-4 text-black text-[14px] max-w-md mb-2">
                 Daily conversation starters and expert advice for all romantic couples
             </p>
 
@@ -32,14 +32,14 @@ export default function Hero() {
                 <button className="flex items-center border-[#9C9C9C]  border sm:px-5 px-2  py-2 gap-1  rounded-lg shadow-md hover:shadow-lg">
                     <Image src="/apple.png" alt="Google Store" width={35} height={35} />
                     <div className="flex flex-col text-left">
-                        <p className="text-xs">Download From</p>
-                        <p>  <strong className="md:text-lg  font-black">Apple Store</strong></p>
+                        <p className="sm:text-xs text-[11px]">Download From</p>
+                        <p>  <strong className="sm:text-lg  text-sm   font-black">Apple Store</strong></p>
                     </div>                </button>
                 <button className="flex items-center  border-[#9C9C9C]   border sm:px-5 px-2  py-2  gap-1 rounded-lg shadow-md hover:shadow-lg">
                     <Image src="/google-play.png" alt="Google Store" width={35} height={35} />
                    <div className="flex flex-col text-left">
-                       <p className="text-xs">Download From</p>
-                       <p>  <strong className="md:text-lg font-black">Google Store</strong></p>
+                       <p className="sm:text-xs text-[11px]">Download From</p>
+                       <p>  <strong className="sm:text-lg text-sm font-black">Google Store</strong></p>
                    </div>
                 </button>
             </div>

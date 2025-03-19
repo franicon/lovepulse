@@ -5,39 +5,39 @@ export const Cta = () => {
         <div className=" py-16 px-6 md:px-12 lg:px-24 container mx-auto mt-16">
             <div className="grid md:grid-cols-2 gap-10  mx-auto items-center">
                 {/* Therapist Cards */}
-                <div className="grid grid-cols-2 gap-12 relative">
+                <div className="grid grid-cols-2 lg:gap-12 gap-10 relative">
                     {/* Card 1 */}
-                    <div className="bg-white shadow-lg rounded-xl p-6 transform translate-y-8 ">
+                    <div className="bg-white shadow-lg rounded-xl lg:p-6 p-2 transform translate-y-8 ">
                         <Image src="/t-1.png" alt="Therapist 1" width={500} height={350} className="rounded-md mb-4 w-full" />
-                        <h3 className="text-lg font-bold">WILSON IDRIS</h3>
-                        <p className="text-sm text-gray-600">Relationship Therapist</p>
+                        <h3 className="lg:text-lg text-sm font-bold">WILSON IDRIS</h3>
+                        <p className="lg:text-sm text-xs text-gray-600">Relationship Therapist</p>
                     </div>
 
                     {/* Card 2 */}
-                    <div className="bg-white shadow-lg rounded-xl p-6 transform -translate-y-6">
+                    <div className="bg-white shadow-lg rounded-xl lg:p-6 p-2 transform -translate-y-6">
                         <Image src="/t-2.png" alt="Therapist 1" width={500} height={350} className="rounded-md mb-4 w-full" />
-                        <h3 className="text-lg font-bold">WILSON IDRIS</h3>
-                        <p className="text-sm text-gray-600">Relationship Therapist</p>
+                        <h3 className="lg:text-lg text-sm font-bold">WILSON IDRIS</h3>
+                        <p className="lg:text-sm text-xs text-gray-600">Relationship Therapist</p>
                     </div>
 
                     {/* Card 3 */}
-                    <div className="bg-white shadow-lg rounded-xl p-6 transform translate-x-8 ">
+                    <div className="bg-white shadow-lg rounded-xl lg:p-6 p-2 transform translate-x-8 ">
                         <Image src="/t-3.png" alt="Therapist 1" width={500} height={350} className="rounded-md mb-4 w-full" />
-                        <h3 className="text-lg font-bold">WILSON IDRIS</h3>
-                        <p className="text-sm text-gray-600">Relationship Therapist</p>
+                        <h3 className="lg:text-lg text-sm font-bold">WILSON IDRIS</h3>
+                        <p className="lg:text-sm text-xs text-gray-600">Relationship Therapist</p>
                     </div>
 
                     {/* Card 4 */}
-                    <div className="bg-white shadow-lg rounded-xl p-6 transform -translate-y-12 translate-x-6">
+                    <div className="bg-white shadow-lg rounded-xl lg:p-6 p-2 transform -translate-y-12 translate-x-6">
                         <Image src="/t-4.png" alt="Therapist 1" width={500} height={350} className="rounded-md mb-4 w-full" />
-                        <h3 className="text-lg font-bold">WILSON IDRIS</h3>
-                        <p className="text-sm text-gray-600">Relationship Therapist</p>
+                        <h3 className="lg:text-lg text-sm font-bold">WILSON IDRIS</h3>
+                        <p className="lg:text-sm text-xs text-gray-600">Relationship Therapist</p>
                     </div>
                 </div>
 
                 {/* Sign-up Section */}
                 <div className="text-left self-start">
-                    <h2 className="text-5xl font-[800] text-gray-900 leading-tight mb-18">
+                    <h2 className="lg:text-5xl text-3xl font-[800] text-gray-900 leading-tight lg:mb-18 mb-10">
                         Sign up as a therapist with <span className="text-black">LOVEPULSE</span>
                     </h2>
                     <p className="text-gray-600 mt-4">
