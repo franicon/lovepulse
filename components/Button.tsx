@@ -1,7 +1,7 @@
 type ButtonProps = {
     type: 'button',
     title: string,
-    variant: 'btn-primary'
+    variant: string
 }
 export const Button = ({type, title, variant}: ButtonProps) => {
     return (
