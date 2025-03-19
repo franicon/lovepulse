@@ -38,7 +38,7 @@ export default function Hero() {
                 <button className="flex items-center  border-[#9C9C9C]   border px-5  py-2  gap-3 rounded-lg shadow-md hover:shadow-lg">
                     <Image src="/google-play.png" alt="Google Store" width={35} height={35} />
                    <div className="flex flex-col text-left">
-                       <ps className="text-xs">Download From</ps>
+                       <p className="text-xs">Download From</p>
                        <p>  <strong className="md:text-lg font-black">Google Store</strong></p>
                    </div>
                 </button>
