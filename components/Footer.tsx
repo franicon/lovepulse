@@ -38,7 +38,7 @@ export const Footer = () => {
                     </div>
 
                     {/* Contact Info */}
-                    <div className="flex items-center space-x-4 flex-wrap gap-4 mt-4 md:mt-0">
+                    <div className="flex items-center space-x-4 mt-4 md:mt-0">
                         <MdLocationOn className="text-lg" />
                         <span>New York, NY</span>
                         <span>|</span>

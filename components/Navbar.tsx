@@ -8,7 +8,7 @@ export const Navbar = () => {
         <div className="border-b border-b-gray-300 transition-all ease-in-out">
             <nav className="flex items-center mx-4 justify-between relative py-4 container xl:mx-auto ">
                 <Link href="/">
-                    <Image src="/logo.png" alt="logo" width={100} height={100}/>
+                    <Image src="/logo.png" alt="logo" width={80} height={80}/>
                 </Link>
                 <div className="flex items-center gap-4">
                     <ul className="hidden h-full gap-8 lg:flex">{NAV_LINKS.map((link) => (

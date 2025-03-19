@@ -17,7 +17,7 @@ export default function Hero() {
             </div>
 
             {/* Hero Text */}
-            <h1 className="2xl:text-6xl xl:text-5xl lg:text-5xl md:text-[2.5rem] sm:text2xl text-[1.6rem] leading-tight">
+            <h1 className="2xl:text-6xl xl:text-5xl lg:text-5xl md:text-[2.5rem] sm:text2xl text-2xl leading-tight">
                 <span className="font-[800]">Helping you stay</span> <i className="font-[Sacramento] font-bold"> Connected </i> <span className="font-black">with</span>
                 <br /> <span className="font-black">Love Pulse</span>
             </h1>
