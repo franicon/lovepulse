@@ -1,4 +1,4 @@
-import { defineConfig } from "tailwindcss/helpers";
+import {defineConfig} from "next/dist/experimental/testmode/playwright";
 
 export default defineConfig({
     theme: {
