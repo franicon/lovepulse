@@ -15,7 +15,7 @@ const StatsSection = () => {
                 </div>
 
                 {/* Middle Stat - 5-Star Review */}
-                <div className="relative mx-auto  md:mt-4 mt-20 bg-[#F25639] text-white rounded-t-[4rem] p-6 flex flex-col justify-center items-center shadow-lg 2xl:w-[380px] xl:w-[340px] lg:w-[250px] md:w-[190px] w-[450px] xl:py-18 md:py-0 py-18">
+                <div className="relative mx-auto  md:mt-4 mt-20 bg-[#F25639] text-white rounded-t-[4rem] p-6 flex flex-col justify-center items-center shadow-lg 2xl:w-[380px] xl:w-[340px] lg:w-[250px] md:w-[190px] w-[350px] xl:py-18 md:py-0 py-18">
                     <div className="absolute xl:-top-14 lg:-top-8 md:-top-4 -top-10  flex">
                         <Image src="/couple-1.png" alt="User 1" width={100} height={100} className="rounded-full border-3 border-white 2xl:h-25 xl:h-23 lg:h-18 md:h-14 h-20 w-auto" />
                         <Image src="/couple-2+.png" alt="User 2" width={100} height={100} className="rounded-full border-3 border-white 2xl:h-25 xl:h-23 lg:h-18 md:h-14 h-20 w-auto -ml-4" />
@@ -33,7 +33,7 @@ const StatsSection = () => {
 
                 {/* Third Stat - Hugging Couple */}
                 <div className="relative flex flex-col items-center justify-center md:mt-4 mt-20">
-                    <div className="bg-[#FFEACA]  rounded-t-[9rem] 2xl:w-[340px] xl:w-[300px] lg:w-[250px] md:w-[190px]  w-[350px] mx-auto px-5">
+                    <div className="bg-[#FFEACA]  rounded-t-[9rem] 2xl:w-[340px] xl:w-[300px] lg:w-[250px] md:w-[190px]  w-[300px] mx-auto px-5">
                         <Image src="/couples.png" alt="Couple Hugging" width={240} height={240} className="rounded-lg -mt-18 mx-auto" />
                     </div>
                 </div>
