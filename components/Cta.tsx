@@ -41,7 +41,7 @@ export const Cta = () => {
                         Sign up as a therapist with <span className="text-black">LOVEPULSE</span>
                     </h2>
                     <p className="text-gray-600 mt-4">
-                        "Making Work-Life Better," is our brand promise at LOVEPULSE. It embodies who we are,
+                        {"Making Work-Life Better,"} is our brand promise at LOVEPULSE. It embodies who we are,
                         our beliefs, and our values. Every day, we strive to improve the work lives of our clients,
                         their workers, and our own LOVEPULSE teams.
                     </p>

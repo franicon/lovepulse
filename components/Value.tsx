@@ -6,7 +6,7 @@ export default function OurValues() {
             <div className="text-center mb-10">
                 <h2 className="text-3xl font-bold">Our Values</h2>
                 <p className="text-gray-600 max-w-7xl mx-auto mt-3">
-                    "Making Work-Life Better," is our brand promise at LOVEPULSE. It embodies who we are, our beliefs, and our values.
+                    {"Making Work-Life Better,"} is our brand promise at LOVEPULSE. It embodies who we are, our beliefs, and our values.
                     Every day and with all we do, we strive to improve the work lives of our clients, their workers, and our own LOVEPULSE teams.
                     Our values are a set of principles that govern our actions. These principles are fundamental to LOVEPULSE culture and way of thinking.
                     Everyone in our organization embodies them.
