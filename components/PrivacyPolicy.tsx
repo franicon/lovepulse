@@ -11,8 +11,8 @@ const PrivacyPolicy = () => {
         "What Information do we collect",
         "How do we use your Information",
         "Sharing of your Information",
-        "Your choices",
-        "Data security",
+        "Your Choices",
+        "Data Security",
         "Data Deletion",
         "Data Retention",
         "Changes to this Policy",
@@ -116,6 +116,106 @@ const PrivacyPolicy = () => {
                                             <strong>Location Information:</strong>  With your consent, we may collect information about your location when you use our mobile app to provide location-based services.
                                         </li>
                                     </ul>
+                                )
+                            }
+
+                            {
+                                section && section === 'How do we use your Information' && (
+                                    <>
+                                        <p> We use the information we collect for the following purposes:</p>
+                                    <ul className="list-disc  mt-2 text-gray-700 leading-relaxed">
+                                        <li>
+                                            <strong>To Provide Services:</strong> We use your information to process utility payments, provide customer support, and fulfill your requests for services.
+                                        </li>
+                                        <li>
+                                           <strong> To Improve Our Services:</strong> We analyze user data to enhance the functionality and performance of the Platform, develop new features, and improve user experience.
+                                        </li>
+                                        <li>
+                                           <strong> To Communicate with You:</strong> We may send you transaction confirmations, updates, and important service-related information. We may also send promotional and marketing materials with your consent.
+                                        </li>
+                                        <li>
+                                            <strong>To Protect Our Platform: </strong> We use information to monitor and prevent fraud, security threats, and abuse of our services.
+                                        </li>
+                                    </ul>
+                                    </>
+
+                                )
+                            }
+                            {
+                                section && section === 'Sharing of your Information' && (
+                                    <>
+                                        <p> We may share your personal information with the following parties: </p>
+                                        <ul className="list-disc  mt-2 text-gray-700 leading-relaxed">
+                                            <li>
+                                               <strong> Service Providers:</strong> We may share your data with trusted service providers who assist us in providing our services, including payment processors, data analytics providers, and customer support services.
+                                            </li>
+                                            <li>
+                                               <strong> Legal and Compliance:</strong> We may disclose your information to comply with legal obligations, respond to lawful requests, protect our rights, privacy, safety, or property, or enforce our Terms and Conditions.
+                                            </li>
+                                            <li>
+                                                <strong>Business Transfers:</strong> In the event of a merger, acquisition, or sale of all or a portion of our assets, your information may be transferred to the acquiring entity.
+                                            </li>
+                                        </ul>
+                                    </>
+
+                                )
+                            }
+
+                            {
+                                section && section === 'Your Choices' && (
+                                    <>
+                                        <p> You have certain choices regarding the use of your personal information: </p>
+                                        <ul className="list-disc  mt-2 text-gray-700 leading-relaxed">
+                                            <li>
+                                               <strong> Access and Correction:</strong> You can access and update your personal information through your account settings.
+                                            </li>
+                                            <li>
+                                               <strong> Marketing Communications:</strong> You can opt out of receiving promotional emails by following the unsubscribe instructions in the email or by contacting us.
+                                            </li>
+                                        </ul>
+                                    </>
+
+                                )
+                            }
+                            {
+                                section && section === 'Data Security' && (
+                                    <p className="text-gray-700 mt-2 leading-relaxed">
+                                        We take data security seriously and implement security measures to protect your personal information. However, no method of transmission over the Internet or electronic storage is entirely secure. While we strive to protect your data, we cannot guarantee its absolute security.
+                                    </p>
+                                )
+                            }
+
+                            {
+                                section && section === 'Data Deletion' && (
+                                    <>
+                                        <p> You have the right to request the deletion of your data from our app/platform at any time. To do so, please follow these steps: </p>
+                                        <ul className="list-disc  mt-2 text-gray-700 leading-relaxed">
+                                            <li>
+                                                log in to the app
+                                            </li>
+                                            <li>Goto Security tab </li>
+                                            <li>Select Delete account </li>
+                                            <li>Enter a reason for deletion </li>
+                                            <li>Confirm deletion.</li>
+                                        </ul>
+                                        <p>All data is wiped clean from our database </p>
+                                    </>
+
+                                )
+                            }
+                            {
+                                section && section === 'Data Retention' && (
+                                    <p className="text-gray-700 mt-2 leading-relaxed">
+                                        We will retain your data only for as long as necessary to fulfill the purposes outlined in this Policy unless a longer retention period is required by law.
+                                    </p>
+                                )
+                            }
+                            {
+                                section && section === 'Changes to this Policy' && (
+                                    <p className="text-gray-700 mt-2 leading-relaxed">
+                                        Changes to this Privacy Policy We may update this Privacy Policy from time to time to reflect changes in our practices or for legal reasons.
+                                        We will notify you of any material changes by posting a revised version on our website or through other appropriate communication channels.
+                                    </p>
                                 )
                             }
                         </section>
