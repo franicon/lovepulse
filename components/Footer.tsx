@@ -35,7 +35,7 @@ export const Footer = () => {
                         <span>•</span>
                         <Link href="/privacy-policy" className="hover:underline">Privacy Policy</Link>
                         <span>•</span>
-                        <Link href="/" className="hover:underline">Terms of Use</Link>
+                        <Link href="/terms-of-use" className="hover:underline">Terms of Use</Link>
                     </div>
 
                     {/* Contact Info */}
