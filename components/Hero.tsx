@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Hero() {
     return (
-        <section className="relative xl:container xl:mx-auto mx-4 flex flex-col items-center justify-center text-center xl:py-20 py-25 mt-12 px-4 xl:mt-18 sm:px-6 lg:px-8 bg-white">
+        <section className="relative xl:container xl:mx-auto px-1 flex flex-col items-center justify-center text-center xl:py-20 py-25 mt-12  xl:mt-18 sm:px-6 lg:px-8 bg-white">
             {/* Floating Emojis Left */}
             <div className="absolute left-1 bottom-[1rem]  md:bottom-[4rem] lg:bottom-[4rem] lg:left-20 ">
                 <Image src="/left-icon.png" alt="Couple 1" width={200} height={200} className="hidden lg:block object-contain bg-white shadow-lg rounded-lg px-4 py-2 " quality={100} priority  />
@@ -17,11 +17,11 @@ export default function Hero() {
             </div>
 
             {/* Hero Text */}
-            <h1 className="2xl:text-6xl xl:text-5xl lg:text-5xl md:text-[2.5rem] sm:text2xl text-2xl leading-tight">
+            <h1 className="2xl:text-6xl xl:text-5xl lg:text-5xl md:text-[2.5rem] sm:text2xl text-[1.5rem] leading-tight">
                 <span className="font-[800]">Helping you stay</span> <i className="font-[Sacramento] font-bold"> Connected </i> <span className="font-black">with</span>
                 <br /> <span className="font-black">Love Pulse</span>
             </h1>
-            <p className="mt-4 text-black text-[14px] max-w-md mb-2">
+            <p className="mt-4 text-black sm:text-[14px] text-[12px] max-w-md mb-2">
                 Daily conversation starters and expert advice for all romantic couples
             </p>
 

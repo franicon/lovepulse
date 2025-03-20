@@ -42,7 +42,7 @@ const StatsSection = () => {
             {/* Bottom Stats */}
             <div className="relative">
                 <div className="absolute inset-0 bg-white/30 backdrop-blur-lg h-100 -mt-16"></div>
-                <div className="mt-12 grid md:grid-cols-3 grid-cols-2 item-center  justify-evenly gap-8 relative z-10">
+                <div className="mt-12 grid md:grid-cols-3 grid-cols-2 item-center  place-items-center gap-8 relative z-10">
                     {/* Active Users */}
                     <div className="text-center flex items-center ">
                         <div className="">

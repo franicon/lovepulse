@@ -1,5 +1,6 @@
 import { FaInstagram, FaLinkedin, FaXTwitter } from "react-icons/fa6";
-import { MdLocationOn, MdCall } from "react-icons/md";
+import {MdLocationOn, MdCall, MdMail} from "react-icons/md";
+import Link from "next/link";
 
 export const Footer = () => {
     return (
@@ -28,17 +29,17 @@ export const Footer = () => {
                 </div>
 
                 {/* Middle Section */}
-                <div className="flex flex-col md:flex-row justify-between items-center text-sm py-4">
-                    <div className="flex space-x-4">
-                        <a href="#" className="hover:underline">About Us</a>
+                <div className="flex flex-col md:flex-row justify-between  text-sm py-4">
+                    <div className="flex space-x-4 self-center mb-5">
+                        <Link href="/" className="hover:underline">About Us</Link>
                         <span>•</span>
-                        <a href="#" className="hover:underline">Privacy Policy</a>
+                        <Link href="/privacy-policy" className="hover:underline">Privacy Policy</Link>
                         <span>•</span>
-                        <a href="#" className="hover:underline">Terms of Use</a>
+                        <Link href="/" className="hover:underline">Terms of Use</Link>
                     </div>
 
                     {/* Contact Info */}
-                    <div className="flex items-center space-x-4 mt-4 md:mt-0">
+                    <div className="lg:flex items-center space-x-4 mt-4 md:mt-0 hidden">
                         <MdLocationOn className="text-lg" />
                         <span>New York, NY</span>
                         <span>|</span>
@@ -48,6 +49,22 @@ export const Footer = () => {
                         <span>|</span>
                         <MdCall className="text-lg" />
                         <span>+1 (732) 860-8696</span>
+                    </div>
+                    <div className="flex lg:hidden flex-col  space-y-8 mt-4 md:mt-0">
+                       <div className="flex gap-2">
+                           <MdLocationOn className="text-lg" />
+                           <span>New York, NY</span>
+                       </div>
+                        <div className="flex gap-2">
+                            <MdMail className="text-lg" />
+                            <a href="mailto:info@lovepulse.com" className="hover:underline">
+                                info@lovepulse.com
+                            </a>
+                        </div>
+                       <div className="flex gap-2">
+                           <MdCall className="text-lg" />
+                           <span>+1 (732) 860-8696</span>
+                       </div>
                     </div>
                 </div>
 
