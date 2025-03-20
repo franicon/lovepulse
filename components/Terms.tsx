@@ -8,14 +8,14 @@ const Terns = () => {
 
     const sections = [
         "Introduction",
-        "What Information do we collect",
-        "How do we use your Information",
-        "Sharing of your Information",
-        "Your Choices",
-        "Data Security",
-        "Data Deletion",
-        "Data Retention",
-        "Changes to this Policy",
+        "User Eligibility",
+        "Payment Method",
+        "Utility Payment",
+        "Fees and Charges",
+        "Security and Privacy",
+        "Refunds and Cancellations",
+        "Terminations",
+        "Limitation of Liability",
     ];
 
     useEffect(() => {
@@ -47,15 +47,15 @@ const Terns = () => {
         <div className="bg-gray-100 min-h-screen">
             {/* Header */}
             <header className="bg-red-600 text-white text-center py-12 text-2xl font-bold">
-                Privacy Policy
+                Terms of Use
             </header>
 
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row mt-6 p-4">
                 {/* Sidebar Navigation */}
                 <aside className="md:w-1/4 bg-white p-6 rounded-md sticky top-16 h-fit">
-                    <h2 className="text-lg font-semibold mb-2">Privacy Policy</h2>
-                    <p className="text-sm text-primary">
-                        Description text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+                    <h2 className="text-lg font-semibold mb-2"> Terms of Use</h2>
+                    <p className="text-sm text-gray-500">
+                        Description text. "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                     <ul className="mt-4 space-y-2">
                         {sections.map((section) => (
@@ -78,7 +78,8 @@ const Terns = () => {
 
                 {/* Main Content */}
                 <main className="md:w-3/4 bg-white p-8 rounded-md">
-                    <h1 className="text-2xl font-bold text-[#022150] mb-4">Privacy Policy</h1>
+                    <h1 className="text-2xl font-bold text-[#022150] mb-4">Terms of Use
+                    </h1>
 
                     {sections.map((section, index) => (
                         <section
@@ -92,36 +93,23 @@ const Terns = () => {
                             {
                                 section && section === 'Introduction' && (
                                     <p className="text-gray-700 mt-2 leading-relaxed">
-                                        Welcome to UtilityHub ("we," "us," or "our"). We are committed to protecting your privacy and ensuring the security of your
-                                        personal information. This Privacy Policy explains how we collect, use, disclose, and protect your personal data when you use our
-                                        website and mobile application (collectively referred to as the "Platform"). By using the Platform, you consent to the practices
-                                        described in this Privacy Policy. Please take a moment to review this policy carefully.
+                                        These Terms and Conditions ("Terms") govern your use of the UtilityHub website and mobile application
+                                        (collectively referred to as the "Platform"). By accessing or using the Platform, you agree to be bound by these Terms.
+                                        If you do not agree to these Terms, please do not use the Platform.
                                     </p>
                                 )
                             }
 
                             {
-                                section && section === 'What Information do we collect' && (
-                                    <ul className="list-disc  mt-2 text-gray-700 leading-relaxed">
-                                        <li>
-                                            <strong>We Collect Personal Information:</strong> We may collect personal information such as your name, email address, phone number, and payment card details when you register for an account, make transactions, or contact our customer support.
-                                        </li>
-                                        <li>
-                                            <strong>Transaction Information:</strong>
-                                            We collect transaction details related to your utility payments, including payment history, service providers, and payment amounts.
-                                        </li>
-                                        <li>
-                                            <strong>Usage Information:</strong> We may collect information about how you use the Platform, including your interactions with the website and mobile app, IP address, device information, and browser type.
-                                        </li>
-                                        <li>
-                                            <strong>Location Information:</strong>  With your consent, we may collect information about your location when you use our mobile app to provide location-based services.
-                                        </li>
-                                    </ul>
+                                section && section === 'User Eligibility' && (
+                                    <p className="text-gray-700 mt-2 leading-relaxed">
+                                        You must be at least 18 years old to use our services. By using the Platform, you confirm that you are of legal age.
+                                    </p>
                                 )
                             }
 
                             {
-                                section && section === 'How do we use your Information' && (
+                                section && section === 'Account Registration' && (
                                     <>
                                         <p> We use the information we collect for the following purposes:</p>
                                         <ul className="list-disc  mt-2 text-gray-700 leading-relaxed">
@@ -131,39 +119,23 @@ const Terns = () => {
                                             <li>
                                                 <strong> To Improve Our Services:</strong> We analyze user data to enhance the functionality and performance of the Platform, develop new features, and improve user experience.
                                             </li>
-                                            <li>
-                                                <strong> To Communicate with You:</strong> We may send you transaction confirmations, updates, and important service-related information. We may also send promotional and marketing materials with your consent.
-                                            </li>
-                                            <li>
-                                                <strong>To Protect Our Platform: </strong> We use information to monitor and prevent fraud, security threats, and abuse of our services.
-                                            </li>
                                         </ul>
                                     </>
 
                                 )
                             }
                             {
-                                section && section === 'Sharing of your Information' && (
+                                section && section === 'Payment Method' && (
                                     <>
-                                        <p> We may share your personal information with the following parties: </p>
-                                        <ul className="list-disc  mt-2 text-gray-700 leading-relaxed">
-                                            <li>
-                                                <strong> Service Providers:</strong> We may share your data with trusted service providers who assist us in providing our services, including payment processors, data analytics providers, and customer support services.
-                                            </li>
-                                            <li>
-                                                <strong> Legal and Compliance:</strong> We may disclose your information to comply with legal obligations, respond to lawful requests, protect our rights, privacy, safety, or property, or enforce our Terms and Conditions.
-                                            </li>
-                                            <li>
-                                                <strong>Business Transfers:</strong> In the event of a merger, acquisition, or sale of all or a portion of our assets, your information may be transferred to the acquiring entity.
-                                            </li>
-                                        </ul>
+                                        <p className="text-gray-700 mt-2 leading-relaxed">
+                                            UtilityHub accepts various payment methods, including debit/credit cards, mobile money, and bank transfers. The availability of payment methods may vary depending on the service you are using.                                        </p>
                                     </>
 
                                 )
                             }
 
                             {
-                                section && section === 'Your Choices' && (
+                                section && section === 'Utility Payment' && (
                                     <>
                                         <p> You have certain choices regarding the use of your personal information: </p>
                                         <ul className="list-disc  mt-2 text-gray-700 leading-relaxed">
@@ -179,43 +151,51 @@ const Terns = () => {
                                 )
                             }
                             {
-                                section && section === 'Data Security' && (
+                                section && section === 'Fees and Charges' && (
                                     <p className="text-gray-700 mt-2 leading-relaxed">
-                                        We take data security seriously and implement security measures to protect your personal information. However, no method of transmission over the Internet or electronic storage is entirely secure. While we strive to protect your data, we cannot guarantee its absolute security.
+                                        UtilityHub may charge service fees for certain transactions. Any applicable fees will be clearly displayed before you complete a transaction.
                                     </p>
                                 )
                             }
 
                             {
-                                section && section === 'Data Deletion' && (
+                                section && section === 'Security and Privacy' && (
                                     <>
-                                        <p> You have the right to request the deletion of your data from our app/platform at any time. To do so, please follow these steps: </p>
-                                        <ul className="list-disc  mt-2 text-gray-700 leading-relaxed">
-                                            <li>
-                                                log in to the app
-                                            </li>
-                                            <li>Goto Security tab </li>
-                                            <li>Select Delete account </li>
-                                            <li>Enter a reason for deletion </li>
-                                            <li>Confirm deletion.</li>
-                                        </ul>
-                                        <p>All data is wiped clean from our database </p>
+                                        <p className="text-gray-700 mt-2 leading-relaxed">
+                                            UtilityHub takes data security and user privacy seriously. We employ industry-standard security measures to protect your personal information.
+                                            Please review our Privacy Policy for more information on how we handle your data.
+                                        </p>
                                     </>
 
                                 )
                             }
                             {
-                                section && section === 'Data Retention' && (
+                                section && section === 'Refunds and Cancellations' && (
                                     <p className="text-gray-700 mt-2 leading-relaxed">
                                         We will retain your data only for as long as necessary to fulfill the purposes outlined in this Policy unless a longer retention period is required by law.
                                     </p>
                                 )
                             }
                             {
-                                section && section === 'Changes to this Policy' && (
+                                section && section === 'Terminations' && (
                                     <p className="text-gray-700 mt-2 leading-relaxed">
                                         Changes to this Privacy Policy We may update this Privacy Policy from time to time to reflect changes in our practices or for legal reasons.
                                         We will notify you of any material changes by posting a revised version on our website or through other appropriate communication channels.
+                                    </p>
+                                )
+                            }
+
+                            {
+                                section && section === 'Limitation of Liability' && (
+                                    <p className="text-gray-700 mt-2 leading-relaxed">
+                                        UtilityHub is not liable for any indirect, incidental, special, consequential, or punitive damages, or for any loss of profits or revenues, whether incurred directly or indirectly, arising out of your use of the Platform or any transactions made through it.
+                                    </p>
+                                )
+                            }
+                            {
+                                section && section === 'Changes to Terms and Platform' && (
+                                    <p className="text-gray-700 mt-2 leading-relaxed">
+                                        UtilityHub reserves the right to modify or update these Terms at any time. You are responsible for regularly reviewing these Terms. Continued use of the Platform after changes have been made constitutes acceptance of the updated Terms
                                     </p>
                                 )
                             }
