@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 
 const Terns = () => {
     const [activeSection, setActiveSection] = useState("Introduction");
-    const sectionRefs = useRef<{ [key: string]: HTMLElement | null }>({});
+    const sectionRefs = useRef<Record<string, HTMLElement | null>>({});
 
     const sections = [
         "Introduction",
@@ -84,8 +84,9 @@ const Terns = () => {
                         <section
                             key={index}
                             id={section}
-                            ref={(el) => (sectionRefs.current[section] = el)}
-                            className="mb-8"
+                            ref={(el) => {
+                                if (el) sectionRefs.current[section] = el;
+                            }}                            className="mb-8"
                         >
                             <h2 className="text-xl font-semibold">{section}</h2>
                             {
